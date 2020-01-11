@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long
+
+int main(){
+    int test;
+    ll n, m, sum;
+    scanf("%d", &test);
+    for(int i = 1; i <= test; i++){
+        scanf("%lld %lld", &n, &m);
+        sum = (n*m) / 2;
+        printf("Case %d: %lld\n", i, sum);
+    }
+    return 0;
+}
